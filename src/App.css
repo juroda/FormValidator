@@ -1,0 +1,181 @@
+#mainForm{
+    width: 100%;
+    height: 100vh;
+    margin: 0px auto;
+    text-align: center;
+    font-family: Solo;
+    background-color: rgba(34,34,34,0.75);
+	
+}
+
+.containForm{
+    margin: auto;
+    width: 550px;
+    height: 550px;
+}
+
+.body-text{
+    padding: 1px 0;
+    color: #000000;
+    text-align: center;
+}
+
+.body-text h1 {
+    font-size: 5em;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+  
+}
+
+.body-text small{
+    font-size: 30px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+form{
+    width: 500px;
+    margin: auto;
+    height: 300px;
+    text-align: center;
+}
+
+input {
+    margin: 1px 0;
+    font-size: 20px;
+    padding-left: 3%;
+    font-family: sans-serif;
+  }
+
+input[type="text"]{
+    width: 73%;
+    height: 40px;
+    border: none;
+    border-radius: 2%;
+  }
+
+input[type="email"]{
+    width: 73%;
+    height: 40px;
+    border: none;
+    border-radius: 2%;
+  }
+
+select{
+    width: 76%;
+    border: none;
+    height: 40px;
+    margin: 1px 0;
+    border-radius: 3%;
+    font-family: sans-serif;
+  }
+
+.containTdeS{
+    width: 76%;
+    margin:auto;
+    border-radius: 3%;
+    font-family: Solo;
+    padding-bottom: 10px;
+    background: #23074d;
+    background: linear-gradient(to right, #cc5333, #23074d);
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+}
+
+.buttonSus{
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin: 1px 0;
+    font-size: 20px;
+    border-radius: 2%;
+    background: #23074d;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #cc5333, #23074d);
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);
+}
+
+input[type="submit"]{
+    width: 50%;
+    border: none;
+    height: 60px;
+    margin: auto;
+    font-size: 1em;
+    display: block;
+    margin-top: 2px;
+    background-color: transparent;
+}
+
+
+input[type="submit"]:hover{
+    transition: 0.3s ease;
+    background-color: rgba(55, 0, 128, 0.7);
+}
+
+.firma{
+    flex:50%;
+    margin:0;
+    float: right;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.firma a{
+    color: #fff;
+    font-family: Firma;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 640px){
+    #mainForm{
+        padding: 0;
+        margin: 0px;
+        width: 100%;
+        height: 100%;    
+        text-align: center;
+        background-color: transparent;
+        
+    }
+
+    body {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .containForm{
+        margin:auto;
+        border: none;
+    }
+
+    input {
+      font-size: 1em;
+    }
+    
+    h1 {
+      font-size: 1.2em;
+    }
+    input {
+      margin: 2px 0;
+    }
+    input[type="submit"]{
+      background-color: rgba(55, 0, 128, 0.7);
+    }
+    footer{
+        display: block;
+        background-color: transparent;
+    }
+    .firma{
+        font-size: 20px;
+    } 
+    
+  }
+@font-face{
+	font-family: Firma;
+	src: url("./Fonts/Cartier.ttf");
+}
+
+@font-face{
+	font-family: Solo;
+	src: url("./Fonts/big_noodle_titling.ttf");
+}
+
+

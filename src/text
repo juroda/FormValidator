@@ -1,0 +1,70 @@
+1) Tipo de subscripcion
+-------------------------------------
+-FREE o PREMIUM
+
+
+2)Datos personales
+-------------------------
+Nombre( validar dos palabras como minimo )
+Email ( validar el formato email )
+Pais (dropdown)  - Investigar e instalar una libreria,npm, nos permita/facilite la lectura de paises
+
+
+3)Tarjeta de credito
+--------------------------------
+Numero de tarjeta / Vencimiento de validacion / CcV (validar; solo si es premium)Investigar e instalar una libreria
+externa para validar datos -validate credit card-
+
+
+4)Confirmación
+Aceptar / Cancelar
+
+
+
+Fecha de entrega 5 de Octubre.
+
+Subir a Github y compartir en Edmodo.
+
+Temas futuros, Redux y expo.io(es una aplicacion, vamos a trabajar directamente desde smartphones). 
+ESta app se descarga en el celu, con npm instalamos una extencion que permite trabajar sobre el mismo
+
+
+codigo predeterminada de la app:
+
+<header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Welcome to React</h1>
+        </header>
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
+        </p>
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
